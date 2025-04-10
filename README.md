@@ -61,13 +61,21 @@ The script alternates between using the keyword and the previously encrypted blo
 **Blocks (4 letters each, or however long your keyword is):**  
 
 Block 0: THEQ (key: JOSH)
+
 Block 1: UICK (key: result of Block 0)
+
 Block 2: BROW (key: JOSH)
+
 Block 3: NFOX (key: result of Block 2)
+
 Block 4: JUMP (key: JOSH)
+
 Block 5: EDOV (key: result of Block 4)
+
 Block 6: ERTH (key: JOSH)
+
 Block 7: ELAZ (key: result of Block 6)
+
 Block 8: YDOG (key: JOSH)
 
 ### Step 4: Encrypting Each Block
