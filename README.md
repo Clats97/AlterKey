@@ -153,6 +153,16 @@ This alternating method means the ciphertext continuously evolves. Each encrypte
 - **Case Handling**: Internally, everything is converted to uppercase for simplicity.  
 - **Corruption Sensitivity**: The decryption of odd blocks depends on the correct decryption of previous blocks, so any errors in the text or keyword will propagate.
 
---
+---
+## License
+
+Distributed under the Apache 2.0 License. 
+
+**Author**
+Joshua M Clatney (Clats97)
+Ethical Pentesting Enthusiast
+
+Copyright 2025 Joshua M Clatney (Clats97)
+
 
 Enjoy experimenting with **The Alternating Cipher**! Feel free to open an issue or submit a pull request with any questions or improvements.
