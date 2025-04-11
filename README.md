@@ -97,6 +97,8 @@ Encrypted Block 1: WDYH
 
 You repeat this process for each subsequent block, alternating between the keyword and previous encrypted block.
 
+**IN OTHER WORDS:** This cipher is a variation of the Vigenere Autokey cipher. In this version, encryption is performed using a sequence that alternates between the keyword and segments of the plaintext equal in length to the keyword. It applies the chosen keyword to the start of the plaintext. Next, it takes a portion of the plaintext matching the length of the keyword, and uses that as the next part of the key. This pattern alternates from keyword, plaintext, keyword, plaintext until the entire plaintext is matched in length by the keyword. For example, if the keyword is "Josh" and the plaintext is "Hello Sir John", the resulting key used for encryption would be "JOSHH ELL OJOS"/
+
 ### Step 5: Recombine and Preserve Formatting
 After all letters are encrypted, the script re-inserts spaces and punctuation in their original positions, preserving readability.
 
